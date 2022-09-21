@@ -34,4 +34,5 @@ TARGET_SCREEN_DENSITY := 560
 TARGET_KERNEL_CONFIG := exynos9810-crownlte_defconfig
 
 # properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

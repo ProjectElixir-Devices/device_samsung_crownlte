@@ -29,6 +29,12 @@ TARGET_SCREEN_HEIGHT := 2960
 TARGET_SCREEN_WIDTH := 1440
 TARGET_BOOT_ANIMATION_RES := 1440
 
+ELIXIR_MAINTAINER := TungPham
+ELIXIR_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 ## Inherit some common AOSP stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 

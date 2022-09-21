@@ -23,4 +23,8 @@ $(call inherit-product, vendor/samsung/crownlte/crownlte-vendor.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+      RemovePkgs
+
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay

@@ -1,0 +1,4 @@
+kernel/samsung
+device/samsung
+vendor/samsung
+device/samsung_slsi

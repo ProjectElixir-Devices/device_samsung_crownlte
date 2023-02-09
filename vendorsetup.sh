@@ -11,6 +11,6 @@ rm -rf device/samsung_slsi/sepolicy
 git clone https://github.com/samsungexynos9810/device_samsung_slsi_sepolicy device/samsung_slsi/sepolicy
 
 rm -rf kernel/samsung/exynos9810
-git clone --depth=1 https://github.com/samsungexynos9810/kernel_samsung_exynos9810 kernel/samsung/exynos9810
+git clone --depth=1 https://github.com/PixelExperience-Devices/kernel_samsung_exynos9810 kernel/samsung/exynos9810
 
 
